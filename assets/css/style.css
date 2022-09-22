@@ -85,6 +85,7 @@ img.first-app {
     border-style: solid;
     border-width: 8px;
     border-color: #4060a0;
+    margin-bottom: -16px
 }
 
 /*Resized the other applications to 400px.
@@ -105,4 +106,5 @@ img.third-app {
     border-style: solid;
     border-width: 8px;
     border-color: #4060a0;
+    margin-left: -60px
 }
