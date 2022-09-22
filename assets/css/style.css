@@ -69,16 +69,20 @@ Changed .avatar to .background.*/
     width: 100%;
 }
 
+/*Added inline-flex to display and margin-left.*/
 .header {
-    margin-left: 100px;
-    margin-right: -100px;
+    display: inline-flex;
+    margin-left: 200px;
 }
 
+/*Added similar code from above with flex-wrap, text-align, justify content, 
+and 100px from the margin to center the paragraph.*/
 .content {
     display: inline-flex;
     flex-wrap: wrap;
     text-align: left;
-    margin-inline: 200px;
+    justify-content: center;
+    margin-left: 100px;
 }
 
 .card {
