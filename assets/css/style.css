@@ -32,22 +32,27 @@ h1.name {
 
 /*Made the nav tag as a container to add a colored background.
 Added a text color.
-Added a flex display and justify content.*/
+Added a flex display and justify content.
+Added a border.*/
 nav.container {
     background-color: #203040;
     color: #4060a0;
     display: flex;
     justify-content: right;
-    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #203040;
 }
 
-/*Added an inline-flex display, margin, font-size/weight, and list-style.*/
+/*Added an inline-flex display, margin, font-size/weight, and list-style.
+Added color and tweaked the margin values.*/
 nav ul li {
     display: inline-flex;
-    margin: 25px 75px 31px 0px;
+    margin: 16px 75px 20px 0px;
     font-size: 125%;
     font-weight: bold;
     list-style-type: none;
+    color: #4060a0;
 }
 
 /*Resized the profile image.
@@ -59,6 +64,7 @@ Changed .avatar to .background.*/
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
+    margin-bottom: 25px;
     height: 200px;
     width: 100%;
 }
