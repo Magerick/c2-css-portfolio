@@ -57,7 +57,8 @@ nav.container {
 }
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.
-Added color and tweaked the margin values.*/
+Added color and tweaked the margin values.
+Added a bottom border for the nav links.*/
 nav ul li {
     display: inline-flex;
     margin: 16px 75px 20px 0px;
@@ -65,6 +66,7 @@ nav ul li {
     font-weight: bold;
     list-style-type: none;
     color: var(--chrome);
+    border-bottom: thick solid var(--chrome);
 }
 
 /*Added a: pseudo classes to change the nav link text colors.*/
@@ -203,23 +205,24 @@ nav.links {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 265px;
     margin-bottom: 50px;
     font-weight: bold;
-    border-bottom: var(--chrome);
-    border-width: 10px;
-    border-style: thick solid;
 }
 
-/*Added .link-1, 2; 3 and added left margins to 100px.*/
+/*Added .link-1, 2; 3 and added left margins to 100px.
+Added bottom borders.*/
 .link-1 {
     color: var(--chrome);
+    border-bottom: thick solid var(--chrome);
 }
 
 .link-2 {
     margin-left: 100px;
+    border-bottom: thick solid var(--chrome);
 }
 
 .link-3 {
     margin-left: 100px;
+    border-bottom: thick solid var(--chrome);
 }
