@@ -89,11 +89,12 @@ Added margins for the bottom and right.*/
 }
 
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
-and margin-bottom to add space between the images.*/
+and margin-bottom to add space between the images.
+Set margin-left to: 194px.*/
 .card {
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 194px;
     margin-bottom: 25px;
 }
 
@@ -108,9 +109,10 @@ and margin-bottom to add space between the images.*/
 
 /*Resized the first application to 800px.
 Added border values.
-Margin-bottom set to -15px.*/
+Set margin-bottom set to -15px.
+Set max-width to 815px to align with other images.*/
 img.first-app {
-    max-width: 800px;
+    max-width: 815px;
     border-style: solid;
     border-width: 8px;
     border-color: #4060a0;
