@@ -145,10 +145,25 @@ img.third-app {
     margin-left: 15px;
 }
 
-/*Added .links to center the nav links.*/
-.links {
+/*Added .links to center the nav links.
+Set margin left/bottom to 50px.*/
+nav.links {
     display: inline-flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+/*Added .link-1, 2; 3 and added left margins to 100px.*/
+.link-1 {
+
+}
+
+.link-2 {
+    margin-left: 100px;
+}
+
+.link-3 {
+    margin-left: 100px;
 }
