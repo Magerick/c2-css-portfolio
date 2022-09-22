@@ -52,6 +52,20 @@ img.avatar {
     max-height: 200px;
 }
 
+.header {
+    margin-left: 100px;
+}
+
+.content {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: flex;
+    justify-content:center;
+}
+
 /*Resized the first application to 800px.*/
 img.first-app {
     max-width: 800px;
@@ -60,4 +74,5 @@ img.first-app {
 /*Resized the other applications to 400px.*/
 img.other-apps {
     max-width: 400px;
+    flex-direction: row;
 }

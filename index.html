@@ -28,46 +28,41 @@
     <img class="avatar" src="./assets/images/avatar.jpg" />
 
     <!--Nav ids to sync with the nav links.-->
+    <!--Added header classes for <main>.-->
     <main>
-        <article>
+        <section class="header">
             <!--Added about me placeholder text.-->
             <h2 id="about-me">About Me</h2>
-            <p>Place text here.</p>
-        </article>
-
+                <p class="content">Place text here.</p>
+        </section>
+                
         <!--Added figure tags for card containers.-->
-        <section>
+        <section class="header">
             <h2 id="work">Work</h2>
                 <!--Added <h3>, <p>, href links, and images for past work.-->
-                <figure class="card" id="first-app">
-                    <h3>Prework Study Guide</h3>
-                        <p>HTML/CSS/JavaScript</p>
-                            <!--Updated images with gaussian blur.-->
-                            <a href="https://magerick.github.io/prework-study-guide/"><img class="first-app" src="./assets/images/prework-g.png" /></a>
+                <figure class="card">
+                    <!--Updated images with gaussian blur.-->
+                        <a href="https://magerick.github.io/prework-study-guide/"><img class="first-app" src="./assets/images/prework-g.png" /></a>
                 </figure>
                 <figure class="card">
-                    <h3>Horiseon Landing Page</h3>
-                        <p>HTML/CSS</p>
-                            <!--Updated image with gaussian variant -g.-->
-                            <a href="https://magerick.github.io/c1-css-webpage/"><img class="other-apps" src="./assets/images/horiseon-g.jpg" /></a>
+                    <!--Updated image with gaussian variant -g.-->
+                        <a href="https://magerick.github.io/c1-css-webpage/"><img class="other-apps" src="./assets/images/horiseon-g.jpg" /></a>
                 </figure>
                 <figure class="card">
                     <!--Added 3rd application container and placeholder image and description.-->
-                    <h3>Projectile Calculator</h3>
-                        <p>C++ to JavaScript Conversion</p>
-                            <img class="other-apps" src="./assets/images/proj-calc-g.png" />
+                    <img class="other-apps" src="./assets/images/proj-calc-g.png" />
                 </figure>
         </section>
-
+        
         <!--Added nav links for the "Contact Me" section.-->
-        <section>
+        <section class="header">
             <h2 id="contact-me">Contact Me</h2>
                 <nav>
                     <p>555-555-5555</p>
                     <a href="mailto:dmagerickponce@gmail.com">dmagerickponce@gmail.com</a>
                     <a href="https://github.com/Magerick">Github</a>
-                </nav>
-        </section>
+                </nav> 
+        </section>    
     </main>
 </body>
 
