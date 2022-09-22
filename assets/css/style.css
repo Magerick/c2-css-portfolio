@@ -88,10 +88,13 @@ Added margins for the bottom and right.*/
     margin-bottom: 25px;
 }
 
+/*Added flex-wrap, justify-content, and margin-left to mimic .content
+and margin-bottom to add space between the images.*/
 .card {
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 200px;
+    margin-bottom: 25px;
 }
 
 /*Created a second card to center the other two image links.*/
@@ -100,7 +103,7 @@ Added margins for the bottom and right.*/
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin-left: 90px;
+    margin-left: 200px;
 }
 
 /*Resized the first application to 800px.
