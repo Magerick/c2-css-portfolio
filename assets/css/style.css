@@ -146,7 +146,7 @@ Set margin-bottom to 50px.*/
 
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
 and margin-bottom to add space between the images.
-Set margin-left to 194px.*/
+Set margin-left to 155px.*/
 .card {
     flex-wrap: wrap;
     justify-content: center;
