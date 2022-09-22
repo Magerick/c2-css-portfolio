@@ -90,6 +90,12 @@ Set margin-bottom to 50px.*/
     margin-bottom: 50px;
 }
 
+/*Added a vertical borderline on the right side of the headers.*/
+.vertical-line {
+    padding-right: 10px;
+    border-right: thick solid #4060a0;
+}
+
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
 and margin-bottom to add space between the images.
 Set margin-left to 194px.*/
