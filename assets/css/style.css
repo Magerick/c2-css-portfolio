@@ -1,3 +1,25 @@
+/*Created a universal font-family to use Courier New.*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Made the nav tag as a container to add a colored background.
+Added a text color.*/
+nav.container {
+    background-color: #203040;
+    color: #00a0ff;
+}
+
+/*Made the header as a container to add a colored background.*/
+header.container {
+    background-color: #4060a0;
+}
+
+/*Added an h1 class to add flexbox properties.*/
+h1.name {
+
+}
+
 /*Resized the profile image.*/
 img.avatar {
     max-width: 300px; 
