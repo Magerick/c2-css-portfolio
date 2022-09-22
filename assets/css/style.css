@@ -59,12 +59,13 @@ nav ul li {
 Added border values.
 Added image link, background image/size/position.
 Added background.jpg which is downloaded from https://wallpaperset.com/w/full/d/f/f/54933.jpg
-Changed .avatar to .background.*/
+Changed .avatar to .background.
+Set margin-bottom to 50px.*/
 .background {
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     height: 200px;
     width: 100%;
 }
@@ -77,7 +78,8 @@ Changed .avatar to .background.*/
 
 /*Added similar code from above with flex-wrap, text-align, justify content, 
 and 100px from the margin to center the paragraph.
-Added margins for the bottom and right.*/
+Added margins for the bottom and right.
+Set margin-bottom to 50px.*/
 .content {
     display: inline-flex;
     flex-wrap: wrap;
@@ -85,12 +87,12 @@ Added margins for the bottom and right.*/
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
 and margin-bottom to add space between the images.
-Set margin-left to: 194px.*/
+Set margin-left to 194px.*/
 .card {
     flex-wrap: wrap;
     justify-content: center;
@@ -98,13 +100,15 @@ Set margin-left to: 194px.*/
     margin-bottom: 25px;
 }
 
-/*Created a second card to center the other two image links.*/
+/*Created a second card to center the other two image links.
+Set margin-bottom to 50px;*/
 .card-2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     margin-left: 200px;
+    margin-bottom: 50px;
 }
 
 /*Resized the first application to 800px.
