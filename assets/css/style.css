@@ -2,7 +2,6 @@
 :root {
     --blue: #0028a0;
     --chrome: #4060a0;
-    --grey: #0d2142;
     --dark: #101520;
 }
 
@@ -17,13 +16,13 @@ Added padding, margin, and box-sizing.*/
 
 /*Changed the website background to dark mode.*/
 body {
-    background-color: var(--grey);
+    background-color: var(--dark);
 }
 
 /*Made the header as a container to add a colored background.
 Added a flex display, a left float value, and margins.*/
 header.container {
-    background-color: var(--blue);
+    background-color: var(--chrome);
     color: var(--dark);
     display: flex;
     float: left;
@@ -65,13 +64,13 @@ nav ul li {
     font-size: 125%;
     font-weight: bold;
     list-style-type: none;
-    color: var(--blue);
+    color: var(--chrome);
 }
 
 /*Added a: pseudo classes to change the nav link text colors.*/
 a:link {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--chrome);
 }
 
 a:hover {
@@ -81,7 +80,7 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--chrome);
 }
 
 /*Resized the profile image.
@@ -99,12 +98,27 @@ Set margin-bottom to 50px.*/
     width: 100%;
 }
 
-/*Added inline-flex to display and margin-left.*/
-.header {
+/*Added inline-flex to display and margin-left.
+Added text-align and 2 more headers.*/
+.header-1 {
     display: inline-flex;
-    flex-direction: left;
     margin-left: 200px;
-    color: var(--blue);
+    text-align: end;
+    color: var(--chrome);
+}
+
+.header-2 {
+    display: inline-flex;
+    margin-left: 214px;
+    text-align: end;
+    color: var(--chrome);
+}
+
+.header-3 {
+    display: inline-flex;
+    margin-left: 120px;
+    text-align: end;
+    color: var(--chrome);
 }
 
 /*Added similar code from above with flex-wrap, text-align, justify content, 
@@ -119,13 +133,13 @@ Set margin-bottom to 50px.*/
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-    color: var(--blue);
+    color: var(--chrome);
 }
 
 /*Added a vertical borderline on the right side of the headers.*/
 .vertical-line {
-    padding-right: 10px;
-    border-right: thick solid var(--blue);
+    padding: 10px;
+    border-right: thick solid var(--chrome);
 }
 
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
@@ -134,7 +148,7 @@ Set margin-left to 194px.*/
 .card {
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 179px;
+    margin-left: 155px;
     margin-bottom: 25px;
 }
 
@@ -157,7 +171,7 @@ img.first-app {
     max-width: 815px;
     border-style: solid;
     border-width: 8px;
-    border-color: var(--blue);
+    border-color: var(--chrome);
     margin-bottom: -15px
 }
 
@@ -169,7 +183,7 @@ img.second-app {
     object-fit: fill;
     border-style: solid;
     border-width: 8px;
-    border-color: var(--blue);
+    border-color: var(--chrome);
 }
 
 /*Set margin-left to 15px to separate the two adjacent images.*/
@@ -179,7 +193,7 @@ img.third-app {
     object-fit: fill;
     border-style: solid;
     border-width: 8px;
-    border-color: var(--blue);
+    border-color: var(--chrome);
     margin-left: 15px;
 }
 
@@ -192,11 +206,14 @@ nav.links {
     margin-left: 200px;
     margin-bottom: 50px;
     font-weight: bold;
+    border-bottom: var(--chrome);
+    border-width: 10px;
+    border-style: thick solid;
 }
 
 /*Added .link-1, 2; 3 and added left margins to 100px.*/
 .link-1 {
-    color: var(--blue);
+    color: var(--chrome);
 }
 
 .link-2 {
