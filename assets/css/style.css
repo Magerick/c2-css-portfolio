@@ -31,7 +31,7 @@ Added a text color.
 Added a flex display and justify content.*/
 nav.container {
     background-color: #203040;
-    color: #00e0ff;
+    color: #4060a0;
     display: flex;
     justify-content: right;
     margin-bottom: 10px;
@@ -46,10 +46,14 @@ nav ul li {
     list-style-type: none;
 }
 
-/*Resized the profile image.*/
+/*Resized the profile image.
+Added border values.*/
 img.avatar {
     max-width: 200px; 
     max-height: 200px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #4060a0; 
 }
 
 .header {
@@ -62,17 +66,43 @@ img.avatar {
 
 .card {
     display: flex;
-    flex-wrap: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
-/*Resized the first application to 800px.*/
+/*Created a second card to center the other two image links.*/
+.card-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+/*Resized the first application to 800px.
+Added border values.*/
 img.first-app {
     max-width: 800px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #4060a0;
 }
 
-/*Resized the other applications to 400px.*/
-img.other-apps {
-    max-width: 400px;
-    flex-direction: row;
+/*Resized the other applications to 400px.
+Added object-fit to debug image scaling.*/
+img.second-app {
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #4060a0; 
+}
+
+img.third-app {
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #4060a0;
 }
