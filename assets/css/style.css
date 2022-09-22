@@ -68,6 +68,7 @@ nav ul li {
     color: var(--blue);
 }
 
+/*Added a: pseudo classes to change the nav link text colors.*/
 a:link {
     text-decoration: none;
     color: var(--blue);
