@@ -13,10 +13,17 @@ header.container {
     margin-left: -10px;
 }
 
-/*Added an h1 class to add flexbox margin properties.*/
+/*Added an h1 class to add flexbox margin properties.
+Added padding and border values to make the colors flush with the nav links.*/
 h1.name {
-    margin-left: 25px;
-    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    border-style: solid;
+    border-width: 11px;
+    border-color: #203040;
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-bottom: -10px;
 }
 
 /*Made the nav tag as a container to add a colored background.
@@ -27,12 +34,13 @@ nav.container {
     color: #00e0ff;
     display: flex;
     justify-content: right;
+    margin-bottom: 10px;
 }
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.*/
 nav ul li {
     display: inline-flex;
-    margin: 10px 30px 15px 30px;
+    margin: 10px 75px 14px 0px;
     font-size: 125%;
     font-weight: bold;
     list-style-type: none;
@@ -40,10 +48,8 @@ nav ul li {
 
 /*Resized the profile image.*/
 img.avatar {
-    display: flex;
-    margin-inline: auto;
-    max-width: 300px; 
-    max-height: 300px;
+    max-width: 200px; 
+    max-height: 200px;
 }
 
 /*Resized the first application to 800px.*/
