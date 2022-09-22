@@ -1,3 +1,11 @@
+/*Added :root to globally change the colors with var(--color) values.*/
+:root {
+    --blue: #0028a0;
+    --chrome: #4060a0;
+    --grey: #0d2142;
+    --dark: #101520;
+}
+
 /*Created a universal font-family to use Courier New.
 Added padding, margin, and box-sizing.*/
 * {
@@ -7,11 +15,16 @@ Added padding, margin, and box-sizing.*/
     box-sizing: border-box;
 }
 
+/*Changed the website background to dark mode.*/
+body {
+    background-color: var(--grey);
+}
+
 /*Made the header as a container to add a colored background.
 Added a flex display, a left float value, and margins.*/
 header.container {
-    background-color: #4060a0;
-    color: #203040;
+    background-color: var(--blue);
+    color: var(--dark);
     display: flex;
     float: left;
     margin-left: -10px;
@@ -24,7 +37,7 @@ h1.name {
     padding-left: 50px;
     border-style: solid;
     border-width: 11px;
-    border-color: #203040;
+    border-color: var(--dark);
     margin-top: 0px;
     margin-left: -10px;
     margin-bottom: -10px;
@@ -35,13 +48,13 @@ Added a text color.
 Added a flex display and justify content.
 Added a border.*/
 nav.container {
-    background-color: #203040;
-    color: #4060a0;
+    background-color: var(--dark);
+    color: var(--blue);
     display: flex;
     justify-content: right;
     border-style: solid;
     border-width: 10px;
-    border-color: #203040;
+    border-color: var(--dark);
 }
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.
@@ -52,7 +65,22 @@ nav ul li {
     font-size: 125%;
     font-weight: bold;
     list-style-type: none;
-    color: #4060a0;
+    color: var(--blue);
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+a:hover {
+    text-decoration: underline;
+    -moz-text-decoration-style: solid;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--blue);
 }
 
 /*Resized the profile image.
@@ -73,7 +101,9 @@ Set margin-bottom to 50px.*/
 /*Added inline-flex to display and margin-left.*/
 .header {
     display: inline-flex;
+    flex-direction: left;
     margin-left: 200px;
+    color: var(--blue);
 }
 
 /*Added similar code from above with flex-wrap, text-align, justify content, 
@@ -88,12 +118,13 @@ Set margin-bottom to 50px.*/
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
+    color: var(--blue);
 }
 
 /*Added a vertical borderline on the right side of the headers.*/
 .vertical-line {
     padding-right: 10px;
-    border-right: thick solid #4060a0;
+    border-right: thick solid var(--blue);
 }
 
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
@@ -102,7 +133,7 @@ Set margin-left to 194px.*/
 .card {
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 194px;
+    margin-left: 179px;
     margin-bottom: 25px;
 }
 
@@ -125,7 +156,7 @@ img.first-app {
     max-width: 815px;
     border-style: solid;
     border-width: 8px;
-    border-color: #4060a0;
+    border-color: var(--blue);
     margin-bottom: -15px
 }
 
@@ -137,7 +168,7 @@ img.second-app {
     object-fit: fill;
     border-style: solid;
     border-width: 8px;
-    border-color: #4060a0; 
+    border-color: var(--blue);
 }
 
 /*Set margin-left to 15px to separate the two adjacent images.*/
@@ -147,7 +178,7 @@ img.third-app {
     object-fit: fill;
     border-style: solid;
     border-width: 8px;
-    border-color: #4060a0;
+    border-color: var(--blue);
     margin-left: 15px;
 }
 
@@ -159,11 +190,12 @@ nav.links {
     justify-content: center;
     margin-left: 200px;
     margin-bottom: 50px;
+    font-weight: bold;
 }
 
 /*Added .link-1, 2; 3 and added left margins to 100px.*/
 .link-1 {
-
+    color: var(--blue);
 }
 
 .link-2 {
