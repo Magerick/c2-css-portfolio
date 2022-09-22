@@ -53,7 +53,7 @@ nav ul li {
 /*Resized the profile image.
 Added border values.
 Added image link, background image/size/position.*/
-img.avatar {
+.avatar {
     height: 200px;
     width: 100%;
     margin-bottom: 10px;
