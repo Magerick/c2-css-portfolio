@@ -8,19 +8,23 @@
 </head>
 
 <body>
+    <header class="container">
+        <!--Developer's name.-->
+        <h1 class="name">Dan Magerick Ponce</h1>
+    </header>
+
     <!--Navigation links for "About Me", "Work", and "Contact Me".-->
-    <!--Moved header tag inside of nav tag.-->
     <nav class="container">
-        <header class="container">
-            <!--Developer's name.-->
-            <h1 class="name">Dan Magerick Ponce</h1>
-            <!--Recent photo or avatar.-->
-            <img class="avatar" src="./assets/images/avatar.jpg" />
-        </header>
-        <a href="#about-me">About Me</a>
-        <a href="#work">Work</a>
-        <a href="#contact-me">Contact Me</a>
+        <ul>
+            <li><a href="#about-me" class="nav">About Me</a></li>
+            <li><a href="#work" class="nav">Work</a></li>
+            <li><a href="#contact-me" class="nav">Contact Me</a></li>
+        </ul>
     </nav>
+
+    <!--Recent photo or avatar.-->
+    <!--Moved img tag outside of <header>.-->
+    <img class="avatar" src="./assets/images/avatar.jpg" />
 
     <!--Nav ids to sync with the nav links.-->
     <main>

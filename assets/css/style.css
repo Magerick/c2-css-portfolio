@@ -3,25 +3,46 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-/*Made the nav tag as a container to add a colored background.
-Added a text color.*/
-nav.container {
-    background-color: #203040;
-    color: #00a0ff;
-}
-
-/*Made the header as a container to add a colored background.*/
+/*Made the header as a container to add a colored background.
+Added a flex display, a left float value, and margins.*/
 header.container {
     background-color: #4060a0;
+    color: #203040;
+    display: flex;
+    float: left;
+    margin-top: 15px;
+    margin-left: -10px;
 }
 
-/*Added an h1 class to add flexbox properties.*/
+/*Added an h1 class to add flexbox margin properties.*/
 h1.name {
+    margin-left: 25px;
+    margin-right: 10px;
+}
 
+/*Made the nav tag as a container to add a colored background.
+Added a text color.
+Added a flex display and justify content.*/
+nav.container {
+    background-color: #203040;
+    color: #00e0ff;
+    display: flex;
+    justify-content: right;
+}
+
+/*Added an inline-flex display, margin, font-size/weight, and list-style.*/
+nav ul li {
+    display: inline-flex;
+    margin: 30px 30px 30px 30px;
+    font-size: 125%;
+    font-weight: bold;
+    list-style-type: none;
 }
 
 /*Resized the profile image.*/
 img.avatar {
+    display: flex;
+    margin-inline: auto;
     max-width: 300px; 
     max-height: 300px;
 }
