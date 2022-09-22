@@ -1,0 +1,15 @@
+/*Resized the profile image.*/
+img.avatar {
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+/*Resized the first application to 800px.*/
+img.first-app {
+    max-width: 800px;
+}
+
+/*Resized the other applications to 400px.*/
+img.other-apps {
+    max-width: 400px;
+}
