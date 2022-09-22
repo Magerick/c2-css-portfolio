@@ -174,7 +174,13 @@ img.first-app {
     border-style: solid;
     border-width: 8px;
     border-color: var(--chrome);
-    margin-bottom: -15px
+    margin-bottom: -15px;
+}
+
+/*Added hover pseudo classes for the image links.*/
+img.first-app:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
 }
 
 /*Resized the other applications to 400px.
@@ -185,7 +191,11 @@ img.second-app {
     object-fit: fill;
     border-style: solid;
     border-width: 8px;
-    border-color: var(--chrome);
+}
+
+img.second-app:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
 }
 
 /*Set margin-left to 15px to separate the two adjacent images.*/
@@ -197,6 +207,12 @@ img.third-app {
     border-width: 8px;
     border-color: var(--chrome);
     margin-left: 15px;
+}
+
+img.third-app:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    color: var(--chrome);
 }
 
 /*Added .links to center the nav links.
