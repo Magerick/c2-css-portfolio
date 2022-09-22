@@ -58,10 +58,14 @@ img.avatar {
 
 .header {
     margin-left: 100px;
+    margin-right: -100px;
 }
 
 .content {
-    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-inline: 200px;
 }
 
 .card {
@@ -107,4 +111,12 @@ img.third-app {
     border-width: 8px;
     border-color: #4060a0;
     margin-left: -60px
+}
+
+/*Added .links to center the nav links.*/
+.links {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
 }
