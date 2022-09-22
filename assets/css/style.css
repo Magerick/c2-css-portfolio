@@ -52,14 +52,15 @@ nav ul li {
 
 /*Resized the profile image.
 Added border values.
-Added image link, background image/size/position.*/
-.avatar {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 10px;
-    background-image: ("./assets/images/avatar.jpg");
+Added image link, background image/size/position.
+Added background.jpg which is downloaded from https://wallpaperset.com/w/full/d/f/f/54933.jpg
+Changed .avatar to .background.*/
+.background {
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
+    height: 200px;
+    width: 100%;
 }
 
 .header {
