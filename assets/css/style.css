@@ -76,18 +76,22 @@ Changed .avatar to .background.*/
 }
 
 /*Added similar code from above with flex-wrap, text-align, justify content, 
-and 100px from the margin to center the paragraph.*/
+and 100px from the margin to center the paragraph.
+Added margins for the bottom and right.*/
 .content {
     display: inline-flex;
     flex-wrap: wrap;
     text-align: left;
     justify-content: center;
     margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
 }
 
 .card {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-left: 200px;
 }
 
 /*Created a second card to center the other two image links.*/
