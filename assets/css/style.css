@@ -107,13 +107,14 @@ and margin-bottom to add space between the images.*/
 }
 
 /*Resized the first application to 800px.
-Added border values.*/
+Added border values.
+Margin-bottom set to -15px.*/
 img.first-app {
     max-width: 800px;
     border-style: solid;
     border-width: 8px;
     border-color: #4060a0;
-    margin-bottom: -16px
+    margin-bottom: -15px
 }
 
 /*Resized the other applications to 400px.
@@ -127,6 +128,7 @@ img.second-app {
     border-color: #4060a0; 
 }
 
+/*Set margin-left to 15px to separate the two adjacent images.*/
 img.third-app {
     width: 400px;
     height: 300px;
@@ -134,7 +136,7 @@ img.third-app {
     border-style: solid;
     border-width: 8px;
     border-color: #4060a0;
-    margin-left: -60px
+    margin-left: 15px;
 }
 
 /*Added .links to center the nav links.*/
