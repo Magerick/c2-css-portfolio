@@ -58,9 +58,12 @@ nav.container {
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.
 Added color and tweaked the margin values.
-Added a bottom border for the nav links.*/
+Added a bottom border for the nav links.
+Added display, flex, and justify values for mobile.*/
 nav ul li {
     display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: right;
     margin: 16px 75px 20px 0px;
     font-size: 125%;
     font-weight: bold;
@@ -131,7 +134,7 @@ Set margin-bottom to 50px.*/
     display: inline-flex;
     flex-wrap: wrap;
     text-align: left;
-    justify-content: center;
+    justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
@@ -146,10 +149,13 @@ Set margin-bottom to 50px.*/
 
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
 and margin-bottom to add space between the images.
-Set margin-left to 155px.*/
+Set margin-left to 155px.
+Added display, flex, and justify values in the card elements for mobile.*/
 .card {
+    display: inline-flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 155px;
     margin-bottom: 25px;
 }
@@ -157,11 +163,11 @@ Set margin-left to 155px.*/
 /*Created a second card to center the other two image links.
 Set margin-bottom to 50px;*/
 .card-2 {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 452px;
     margin-bottom: 50px;
 }
 
@@ -216,11 +222,13 @@ img.third-app:hover {
 }
 
 /*Added .links to center the nav links.
-Set margin left/bottom to 265 and 50px.*/
+Set margin left/bottom to 265 and 50px.
+Added display, flex, and justify values for mobile.*/
 nav.links {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     margin-left: 265px;
     margin-bottom: 50px;
     font-weight: bold;
