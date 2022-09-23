@@ -173,14 +173,14 @@ Set margin-bottom to 50px;*/
 
 /*Resized the first application to 800px.
 Added border values.
-Set margin-bottom set to -15px.
+Set margin-bottom set to -14px.
 Set max-width to 815px to align with other images.*/
 img.first-app {
     max-width: 815px;
     border-style: solid;
     border-width: 8px;
     border-color: var(--chrome);
-    margin-bottom: -15px;
+    margin-bottom: -14px;
 }
 
 /*Added hover pseudo classes for the image links.*/
