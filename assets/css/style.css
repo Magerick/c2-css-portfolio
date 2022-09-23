@@ -166,7 +166,7 @@ Set margin-bottom to 50px;*/
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-left: 452px;
     margin-bottom: 50px;
 }
@@ -190,13 +190,16 @@ img.first-app:hover {
 }
 
 /*Resized the other applications to 400px.
-Added object-fit to debug image scaling.*/
+Added object-fit to debug image scaling.
+Added margin right/bottom values.*/
 img.second-app {
     width: 400px;
     height: 300px;
     object-fit: fill;
     border-style: solid;
     border-width: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
 }
 
 img.second-app:hover {
@@ -204,7 +207,8 @@ img.second-app:hover {
     filter: alpha(opacity=30);
 }
 
-/*Set margin-left to 15px to separate the two adjacent images.*/
+/*Set margin-left to 15px to separate the two adjacent images.
+Added margin left/bottom values.*/
 img.third-app {
     width: 400px;
     height: 300px;
@@ -212,7 +216,8 @@ img.third-app {
     border-style: solid;
     border-width: 8px;
     border-color: var(--chrome);
-    margin-left: 15px;
+    margin-left: 8px;
+    margin-bottom: 16px;
 }
 
 img.third-app:hover {
@@ -225,7 +230,7 @@ img.third-app:hover {
 Set margin left/bottom to 265 and 50px.
 Added display, flex, and justify values for mobile.*/
 nav.links {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
