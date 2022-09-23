@@ -30,12 +30,13 @@ header.container {
 }
 
 /*Added an h1 class to add flexbox margin properties.
-Added padding and border values to make the colors flush with the nav links.*/
+Added padding and border values to make the colors flush with the nav links.
+Updated the border-width.*/
 h1.name {
     padding: 10px;
     padding-left: 50px;
     border-style: solid;
-    border-width: 11px;
+    border-width: 12px;
     border-color: var(--dark);
     margin-top: 0px;
     margin-left: -10px;
@@ -158,11 +159,24 @@ Added display, flex, and justify values in the card elements for mobile.*/
     justify-content: space-between;
     margin-left: 155px;
     margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+    color: var(--blue);
+}
+
+.prework {
+    position: absolute;
+    text-align: left;
+    bottom: 25px;
+    left: 0px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 10px;
 }
 
 /*Created a second card to center the other two image links.
 Set margin-bottom to 50px;*/
-.card-2 {
+.cards {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -170,6 +184,39 @@ Set margin-bottom to 50px;*/
     margin-left: 452px;
     margin-bottom: 50px;
 }
+
+.card-2 {
+    position: relative;
+    text-align: center;
+    color: var(--blue);
+}
+
+.horiseon {
+    position: absolute;
+    text-align: left;
+    bottom: 55px;
+    left: 0px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 5px;
+}
+
+.card-3 {
+    position: relative;
+    text-align: center;
+    color: var(--blue);
+}
+
+.proj-calc {
+    position: absolute;
+    text-align: left;
+    bottom: 55px;
+    left: 8px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 5px;
+}
+
 
 /*Resized the first application to 800px.
 Added border values.
