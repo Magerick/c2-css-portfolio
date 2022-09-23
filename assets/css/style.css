@@ -161,14 +161,11 @@ Added display, flex, and justify values in the card elements for mobile.*/
     margin-bottom: 25px;
     position: relative;
     text-align: center;
-    color: var(--blue);
+    color: var(--dark);
 }
 
-/*Added hover elements to the cards below to match the image links.*/
-.card:hover {
-    opacity: 0.3;
-    filter: alpha(opacity=30);
-}
+/*Added hover elements to the cards below to match the image links.
+Removed them as to more resemble the mockup.*/
 
 .prework {
     position: absolute;
@@ -194,12 +191,7 @@ Set margin-bottom to 50px;*/
 .card-2 {
     position: relative;
     text-align: center;
-    color: var(--blue);
-}
-
-.card-2:hover {
-    opacity: 0.3;
-    filter: alpha(opacity=30);
+    color: var(--dark);
 }
 
 .horiseon {
@@ -215,12 +207,7 @@ Set margin-bottom to 50px;*/
 .card-3 {
     position: relative;
     text-align: center;
-    color: var(--blue);
-}
-
-.card-3:hover {
-    opacity: 0.3;
-    filter: alpha(opacity=30);
+    color: var(--dark);
 }
 
 .proj-calc {
