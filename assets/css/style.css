@@ -104,6 +104,14 @@ Set margin-bottom to 50px.*/
     width: 100%;
 }
 
+/*Added flex and space-between properties for <main>.*/
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*Added inline-flex to display and margin-left.
 Added text-align and 2 more headers.*/
 .header-1 {
