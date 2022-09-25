@@ -104,23 +104,22 @@ Set margin-bottom to 50px.*/
     width: 100%;
 }
 
-/*Added flex and space-between properties for <main>.*/
+/*Added flex and space-between properties for <main>.
+Had <main> justify content set to space-between.*/
 .flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
 /*Added inline-flex to display and margin-left.
-Added text-align and 2 more headers.*/
-.header-1 {
-    display: inline-flex;
-    margin-left: 200px;
-    text-align: end;
+Added text-align and 2 more headers.
+Deleted every property besides color.*/
+.header {
     color: var(--chrome);
 }
 
+/* Commented out header-2 and 3. Made .header the main header.
 .header-2 {
     display: inline-flex;
     margin-left: 214px;
@@ -134,6 +133,7 @@ Added text-align and 2 more headers.*/
     text-align: end;
     color: var(--chrome);
 }
+*/
 
 /*Added similar code from above with flex-wrap, text-align, justify content, 
 and 100px from the margin to center the paragraph.
