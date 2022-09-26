@@ -124,21 +124,9 @@ Set margin-left to 150px.*/
 /*Added h2 to remake the right-side borders.
 Removed h2 because the h2 headers don't align well.*/
 
-/* Commented out header-2 and 3. Made .header the main header.
-.header-2 {
-    display: inline-flex;
-    margin-left: 214px;
-    text-align: end;
-    color: var(--chrome);
-}
-
-.header-3 {
-    display: inline-flex;
-    margin-left: 120px;
-    text-align: end;
-    color: var(--chrome);
-}
-*/
+/*Made .header the main header.
+Commented out header-2 and 3.
+Removed header-2 and 3.*/
 
 /*Added similar code from above with flex-wrap, text-align, justify content, 
 and 100px from the margin to center the paragraph.
@@ -156,13 +144,9 @@ Set margin-left to 200px.*/
     color: var(--chrome);
 }
 
-/*Commented out .vertical-line.
-Added a vertical borderline on the right side of the headers.
-.vertical-line {
-    padding: 10px;
-    border-right: thick solid var(--chrome);
-}
-*/
+/*Added a vertical borderline on the right side of the headers.
+Commented out .vertical-line.
+Removed vertical-lines.*/
 
 /*Created a second card to center the other two image links.
 Set margin-bottom to 50px;
