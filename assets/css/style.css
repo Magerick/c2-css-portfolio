@@ -382,3 +382,11 @@ Removed margin-left for .link-2 and 3.*/
 .link-3 {
     border-bottom: thick solid var(--blue);
 }
+
+/*Added a footer link back to the top of the page.*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
