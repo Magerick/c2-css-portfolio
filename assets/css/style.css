@@ -153,11 +153,13 @@ Set margin-left to 200px.*/
     color: var(--chrome);
 }
 
-/*Added a vertical borderline on the right side of the headers.*/
+/*Commented out .vertical-line.
+Added a vertical borderline on the right side of the headers.
 .vertical-line {
     padding: 10px;
     border-right: thick solid var(--chrome);
 }
+*/
 
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
 and margin-bottom to add space between the images.
