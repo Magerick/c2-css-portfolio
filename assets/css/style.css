@@ -195,11 +195,12 @@ Removed them as to more resemble the mockup.*/
 
 /*Created a second card to center the other two image links.
 Set margin-bottom to 50px;
-Set margin-left to 200px.*/
+Set margin-left to 200px.
+Set display to flex and flex-direction to column.*/
 .cards {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-left: 200px;
     margin-bottom: 50px;
