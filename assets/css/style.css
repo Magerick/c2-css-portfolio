@@ -121,6 +121,17 @@ Set height to 300px.*/
     width: 100%;
 }
 
+/*Added a text box for the background above.*/
+.message {
+    position: absolute;
+    text-align: right;
+    bottom: 425px;
+    right: 120px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 10px;
+}
+
 /*Added flex and space-between properties for <main>.
 Had <main> justify content set to space-between.*/
 .flex {
