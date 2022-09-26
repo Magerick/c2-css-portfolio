@@ -29,14 +29,21 @@ header.container {
     margin-left: -10px;
 }
 
+/*Added an image element for the profile picture.*/
+img.profile {
+    max-height: 100px;
+    margin-left: 10px;
+}
+
 /*Added an h1 class to add flexbox margin properties.
 Added padding and border values to make the colors flush with the nav links.
 Updated the border-width.
-Removed margin-bottom.*/
+Removed margin-bottom.
+Added padding-top and edited the borders to fit the picture.*/
 h1.name {
     padding: 10px;
-    padding-left: 100px;
-    border-style: solid;
+    padding-top: 18px;
+    border: solid;
     border-width: 12px;
     border-color: var(--dark);
     margin-top: 0px;
@@ -48,7 +55,8 @@ Added a text color.
 Added a flex display and justify content.
 Added a border.
 Removed display and justify content.
-Reversed previous commit and added a 450px padding to the left.*/
+Reversed previous commit and added a 450px padding to the left.
+Made padding-left 400px.*/
 nav.container {
     display: flex;
     flex-wrap: wrap;
@@ -58,19 +66,20 @@ nav.container {
     border-style: solid;
     border-width: 12px;
     border-color: var(--dark);
-    padding-left: 450px;
+    padding-left: 400px;
 }
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.
 Added color and tweaked the margin values.
 Added a bottom border for the nav links.
 Added display, flex, and justify values for mobile.
-Replaced margin with margin-top.*/
+Replaced margin with margin-top.
+Added margin-left.*/
 nav ul li {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 125%;
@@ -164,14 +173,15 @@ Set margin-bottom to 50px;
 Set margin-left to 200px.
 Set display to flex and flex-direction to column.
 Added flex: 0 1 50px; to fix wrapping.
-Moved .cards above .card to align continuity with HTML.*/
+Moved .cards above .card to align continuity with HTML.
+Reduced margin-left to 120px.*/
 .cards {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     flex: 0 1 50px;
-    margin-left: 200px;
+    margin-left: 120px;
     margin-bottom: 50px;
 }
 
@@ -295,14 +305,15 @@ img.third-app:hover {
 
 /*Added .links to center the nav links.
 Set margin left/bottom to 265 and 50px.
-Added display, flex, and justify values for mobile.*/
+Added display, flex, and justify values for mobile.
+Halved margin-left.*/
 nav.links {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     flex: 1 1 50px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-bottom: 50px;
     font-weight: bold;
 }
