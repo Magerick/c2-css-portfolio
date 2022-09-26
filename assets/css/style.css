@@ -114,9 +114,11 @@ Had <main> justify content set to space-between.*/
 
 /*Added inline-flex to display and margin-left.
 Added text-align and 2 more headers.
-Deleted every property besides color.*/
+Deleted every property besides color.
+Set margin-left to 150px.*/
 .header {
     color: var(--chrome);
+    margin-left: 150px;
 }
 
 /* Commented out header-2 and 3. Made .header the main header.
@@ -138,13 +140,14 @@ Deleted every property besides color.*/
 /*Added similar code from above with flex-wrap, text-align, justify content, 
 and 100px from the margin to center the paragraph.
 Added margins for the bottom and right.
-Set margin-bottom to 50px.*/
+Set margin-bottom to 50px.
+Set margin-left to 200px.*/
 .content {
     display: inline-flex;
     flex-wrap: wrap;
     text-align: left;
     justify-content: space-between;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: 100px;
     margin-bottom: 50px;
     color: var(--chrome);
