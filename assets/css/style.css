@@ -164,6 +164,22 @@ Added a vertical borderline on the right side of the headers.
 }
 */
 
+/*Created a second card to center the other two image links.
+Set margin-bottom to 50px;
+Set margin-left to 200px.
+Set display to flex and flex-direction to column.
+Added flex: 0 1 50px; to fix wrapping.
+Moved .cards above .card to align continuity with HTML.*/
+.cards {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex: 0 1 50px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+
 /*Added flex-wrap, justify-content, and margin-left to mimic .content
 and margin-bottom to add space between the images.
 Set margin-left to 155px.
@@ -173,6 +189,7 @@ Removed the flex, display, and margin values.*/
     position: relative;
     text-align: center;
     color: var(--dark);
+    margin: 10px;
 }
 
 /*Added hover elements to the cards below to match the image links.
@@ -188,26 +205,13 @@ Removed them as to more resemble the mockup.*/
     padding: 10px;
 }
 
-/*Created a second card to center the other two image links.
-Set margin-bottom to 50px;
-Set margin-left to 200px.
-Set display to flex and flex-direction to column.
-Added flex: 0 1 50px; to fix wrapping.*/
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex: 0 0 0px;
-    margin-left: 200px;
-    margin-bottom: 50px;
-}
+
 
 .card-2 {
     position: relative;
     text-align: center;
     color: var(--dark);
+    margin: 10px;
 }
 
 .horiseon {
@@ -224,6 +228,7 @@ Added flex: 0 1 50px; to fix wrapping.*/
     position: relative;
     text-align: center;
     color: var(--dark);
+    margin: 10px;
 }
 
 .proj-calc {
