@@ -30,7 +30,7 @@ The display elements are able to adapt to mobile devices as the sections and ele
 
 Webpage: https://magerick.github.io//
 
-##Credits
+## Credits
 Background Cover Image (background.jpg): https://wallpaperset.com/w/full/d/f/f/54933.jpg
 
 ## License
