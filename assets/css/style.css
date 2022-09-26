@@ -112,10 +112,6 @@ Added background.jpg which is downloaded from https://wallpaperset.com/w/full/d/
 Changed .avatar to .background.
 Set margin-bottom to 50px.*/
 .background {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 0 0;
-    justify-content: space-around;
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -137,12 +133,46 @@ Added text-align and 2 more headers.
 Deleted every property besides color.
 Set margin-left to 150px.*/
 .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     color: var(--chrome);
     margin-left: 150px;
 }
 
 /*Added h2 to remake the right-side borders.
 Removed h2 because the h2 headers don't align well.*/
+.side-1 {
+    float: left;
+    padding: 10px;
+    border-width: 10px;
+    border-right: thick solid var(--chrome);
+}
+
+.side-2 {
+    float: left;
+    padding: 10px;
+    margin-left: 55px;
+    border-width: 10px;
+    border-right: thick solid var(--chrome);
+}
+
+
+/*Added header-3*/
+.header-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--chrome);
+    margin-left: 119px;
+}
+
+.side-3 {
+    float: left;
+    padding: 10px;
+    border-width: 10px;
+    border-right: thick solid var(--chrome);
+}
 
 /*Made .header the main header.
 Commented out header-2 and 3.
@@ -154,7 +184,7 @@ Added margins for the bottom and right.
 Set margin-bottom to 50px.
 Set margin-left to 200px.*/
 .content {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     text-align: left;
     justify-content: space-between;
@@ -179,9 +209,9 @@ Reduced margin-left to 120px.*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    flex: 0 1 50px;
-    margin-left: 120px;
+    justify-content: space-around;
+    flex: 1 1 0px;
+    margin-right: 50px;
     margin-bottom: 50px;
 }
 
@@ -306,14 +336,15 @@ img.third-app:hover {
 /*Added .links to center the nav links.
 Set margin left/bottom to 265 and 50px.
 Added display, flex, and justify values for mobile.
-Halved margin-left.*/
+Halved margin-left.
+Set margin-left to 0.*/
 nav.links {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     flex: 1 1 50px;
-    margin-left: 100px;
+    margin-right: 50px;
     margin-bottom: 50px;
     font-weight: bold;
 }
