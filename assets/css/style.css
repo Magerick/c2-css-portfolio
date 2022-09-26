@@ -47,13 +47,18 @@ h1.name {
 Added a text color.
 Added a flex display and justify content.
 Added a border.
-Removed display and justify content.*/
+Removed display and justify content.
+Reversed previous commit and added a 450px padding to the left.*/
 nav.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: var(--dark);
     color: var(--blue);
     border-style: solid;
     border-width: 12px;
     border-color: var(--dark);
+    padding-left: 450px;
 }
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.
@@ -64,8 +69,10 @@ Replaced margin with margin-top.*/
 nav ul li {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: space-around;
     margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 125%;
     font-weight: bold;
     list-style-type: none;
@@ -96,6 +103,10 @@ Added background.jpg which is downloaded from https://wallpaperset.com/w/full/d/
 Changed .avatar to .background.
 Set margin-bottom to 50px.*/
 .background {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+    justify-content: space-around;
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -160,7 +171,7 @@ Moved .cards above .card to align continuity with HTML.*/
     flex-direction: row;
     justify-content: center;
     flex: 0 1 50px;
-    margin-left: 170px;
+    margin-left: 200px;
     margin-bottom: 50px;
 }
 
