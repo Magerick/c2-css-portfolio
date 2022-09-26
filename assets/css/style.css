@@ -62,7 +62,7 @@ nav.container {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: var(--dark);
-    color: var(--blue);
+    color: var(--black);
     border-style: solid;
     border-width: 12px;
     border-color: var(--dark);
@@ -76,10 +76,10 @@ synced it to nav.container.*/
 .message {
     position: absolute;
     text-align: right;
-    bottom: -200px;
+    bottom: -100px;
     right: 105px;
     background-color: var(--chrome);
-    border: solid thick var(--chrome);
+    border: solid thick var(--blue);
     padding: 10px;
 }
 
@@ -100,7 +100,7 @@ nav ul li {
     font-weight: bold;
     list-style-type: none;
     color: var(--chrome);
-    border-bottom: thick solid var(--chrome);
+    border-bottom: thick solid var(--blue);
 }
 
 /*Added a: pseudo classes to change the nav link text colors.*/
@@ -151,7 +151,7 @@ Set margin-left to 150px.*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: var(--chrome);
+    color: var(--blue);
     margin-left: 150px;
 }
 
@@ -161,7 +161,7 @@ Removed h2 because the h2 headers don't align well.*/
     float: left;
     padding: 10px;
     border-width: 10px;
-    border-right: thick solid var(--chrome);
+    border-right: thick solid var(--blue);
 }
 
 .side-2 {
@@ -169,7 +169,7 @@ Removed h2 because the h2 headers don't align well.*/
     padding: 10px;
     margin-left: 55px;
     border-width: 10px;
-    border-right: thick solid var(--chrome);
+    border-right: thick solid var(--blue);
 }
 
 
@@ -178,7 +178,7 @@ Removed h2 because the h2 headers don't align well.*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: var(--chrome);
+    color: var(--blue);
     margin-left: 119px;
 }
 
@@ -186,7 +186,7 @@ Removed h2 because the h2 headers don't align well.*/
     float: left;
     padding: 10px;
     border-width: 10px;
-    border-right: thick solid var(--chrome);
+    border-right: thick solid var(--blue);
 }
 
 /*Made .header the main header.
@@ -372,13 +372,13 @@ Added bottom borders.
 Removed margin-left for .link-2 and 3.*/
 .link-1 {
     color: var(--chrome);
-    border-bottom: thick solid var(--chrome);
+    border-bottom: thick solid var(--blue);
 }
 
 .link-2 {
-    border-bottom: thick solid var(--chrome);
+    border-bottom: thick solid var(--blue);
 }
 
 .link-3 {
-    border-bottom: thick solid var(--chrome);
+    border-bottom: thick solid var(--blue);
 }
