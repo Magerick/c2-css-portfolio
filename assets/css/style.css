@@ -194,13 +194,14 @@ Removed them as to more resemble the mockup.*/
 }
 
 /*Created a second card to center the other two image links.
-Set margin-bottom to 50px;*/
+Set margin-bottom to 50px;
+Set margin-left to 200px.*/
 .cards {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 452px;
+    margin-left: 200px;
     margin-bottom: 50px;
 }
 
@@ -240,13 +241,13 @@ Set margin-bottom to 50px;*/
 /*Resized the first application to 800px.
 Added border values.
 Set margin-bottom set to -14px.
-Set max-width to 815px to align with other images.*/
+Set max-width to 815px to align with other images.
+Removed the margin values below.*/
 img.first-app {
     max-width: 815px;
     border-style: solid;
     border-width: 8px;
     border-color: var(--chrome);
-    margin-bottom: -14px;
 }
 
 /*Added hover pseudo classes for the image links.*/
@@ -257,15 +258,14 @@ img.first-app:hover {
 
 /*Resized the other applications to 400px.
 Added object-fit to debug image scaling.
-Added margin right/bottom values.*/
+Added margin right/bottom values.
+Removed the margin values below.*/
 img.second-app {
     width: 400px;
     height: 300px;
     object-fit: fill;
     border-style: solid;
     border-width: 8px;
-    margin-right: 8px;
-    margin-bottom: 16px;
 }
 
 img.second-app:hover {
@@ -274,7 +274,8 @@ img.second-app:hover {
 }
 
 /*Set margin-left to 15px to separate the two adjacent images.
-Added margin left/bottom values.*/
+Added margin left/bottom values.
+Removed the margin values below.*/
 img.third-app {
     width: 400px;
     height: 300px;
@@ -282,8 +283,6 @@ img.third-app {
     border-style: solid;
     border-width: 8px;
     border-color: var(--chrome);
-    margin-left: 8px;
-    margin-bottom: 16px;
 }
 
 img.third-app:hover {
