@@ -121,6 +121,12 @@ Set margin-left to 150px.*/
     margin-left: 150px;
 }
 
+/*Added h2 to remake the right-side borders.*/
+h2 {
+    border-right: thick solid var(--chrome);
+    margin-right: 1200px;
+}
+
 /* Commented out header-2 and 3. Made .header the main header.
 .header-2 {
     display: inline-flex;
