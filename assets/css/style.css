@@ -193,9 +193,6 @@ Set margin to 5px.*/
     margin: 5px;
 }
 
-/*Added hover elements to the cards below to match the image links.
-Removed them as to more resemble the mockup.*/
-
 .prework {
     position: absolute;
     text-align: left;
@@ -213,10 +210,11 @@ Removed them as to more resemble the mockup.*/
     margin: 10px;
 }
 
+/*Set bottom and left values to mimic .prework.*/
 .horiseon {
     position: absolute;
     text-align: left;
-    bottom: 55px;
+    bottom: 25px;
     left: 0px;
     background-color: var(--chrome);
     border: solid thick var(--chrome);
@@ -230,11 +228,12 @@ Removed them as to more resemble the mockup.*/
     margin: 10px;
 }
 
+/*Set bottom and left values to mimic .prework.*/
 .proj-calc {
     position: absolute;
     text-align: left;
-    bottom: 55px;
-    left: 8px;
+    bottom: 25px;
+    left: 0px;
     background-color: var(--chrome);
     border: solid thick var(--chrome);
     padding: 5px;
@@ -256,6 +255,9 @@ img.first-app {
 }
 
 /*Added hover pseudo classes for the image links.*/
+
+/*Added hover elements to the cards below to match the image links.
+Removed them as to more resemble the mockup.*/
 img.first-app:hover {
     opacity: 0.3;
     filter: alpha(opacity=30);
