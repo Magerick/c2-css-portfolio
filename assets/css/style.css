@@ -1,0 +1,392 @@
+/*Added :root to globally change the colors with var(--color) values.*/
+:root {
+    --blue: #0028a0;
+    --chrome: #4060a0;
+    --dark: #101520;
+}
+
+/*Created a universal font-family to use Courier New.
+Added padding, margin, and box-sizing.*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Changed the website background to dark mode.*/
+body {
+    background-color: var(--dark);
+}
+
+/*Made the header as a container to add a colored background.
+Added a flex display, a left float value, and margins.*/
+header.container {
+    background-color: var(--chrome);
+    color: var(--dark);
+    display: flex;
+    float: left;
+    margin-left: -10px;
+}
+
+/*Added an image element for the profile picture.*/
+img.profile {
+    max-height: 100px;
+    margin-left: 10px;
+}
+
+/*Added an h1 class to add flexbox margin properties.
+Added padding and border values to make the colors flush with the nav links.
+Updated the border-width.
+Removed margin-bottom.
+Added padding-top and edited the borders to fit the picture.*/
+h1.name {
+    padding: 10px;
+    padding-top: 18px;
+    border: solid;
+    border-width: 12px;
+    border-color: var(--dark);
+    margin-top: 0px;
+    margin-left: -10px;
+}
+
+/*Made the nav tag as a container to add a colored background.
+Added a text color.
+Added a flex display and justify content.
+Added a border.
+Removed display and justify content.
+Reversed previous commit and added a 450px padding to the left.
+Made padding-left 400px, then to 430px.*/
+nav.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--dark);
+    color: var(--black);
+    border-style: solid;
+    border-width: 12px;
+    border-color: var(--dark);
+    padding-left: 430px;
+    position: relative;
+    text-align: center;
+}
+
+/*Added a text box for the background above, but
+synced it to nav.container.*/
+.message {
+    position: absolute;
+    text-align: right;
+    bottom: -100px;
+    right: 105px;
+    background-color: var(--chrome);
+    border: solid thick var(--blue);
+    padding: 10px;
+}
+
+/*Added an inline-flex display, margin, font-size/weight, and list-style.
+Added color and tweaked the margin values.
+Added a bottom border for the nav links.
+Added display, flex, and justify values for mobile.
+Replaced margin with margin-top.
+Added margin-left.*/
+nav ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 125%;
+    font-weight: bold;
+    list-style-type: none;
+    color: var(--chrome);
+    border-bottom: thick solid var(--blue);
+}
+
+/*Added a: pseudo classes to change the nav link text colors.*/
+a:link {
+    text-decoration: none;
+    color: var(--chrome);
+}
+
+a:hover {
+    text-decoration: underline;
+    -moz-text-decoration-style: solid;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--chrome);
+}
+
+/*Resized the profile image.
+Added border values.
+Added image link, background image/size/position.
+Added background.jpg which is downloaded from https://wallpaperset.com/w/full/d/f/f/54933.jpg
+Changed .avatar to .background.
+Set margin-bottom to 50px.
+Set height to 300px.*/
+.background {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 100%;
+}
+
+/*Added flex and space-between properties for <main>.
+Had <main> justify content set to space-between.*/
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Added inline-flex to display and margin-left.
+Added text-align and 2 more headers.
+Deleted every property besides color.
+Set margin-left to 150px.*/
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--blue);
+    margin-left: 150px;
+}
+
+/*Added h2 to remake the right-side borders.
+Removed h2 because the h2 headers don't align well.*/
+.side-1 {
+    float: left;
+    padding: 10px;
+    border-width: 10px;
+    border-right: thick solid var(--blue);
+}
+
+.side-2 {
+    float: left;
+    padding: 10px;
+    margin-left: 55px;
+    border-width: 10px;
+    border-right: thick solid var(--blue);
+}
+
+
+/*Added header-3*/
+.header-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--blue);
+    margin-left: 119px;
+}
+
+.side-3 {
+    float: left;
+    padding: 10px;
+    border-width: 10px;
+    border-right: thick solid var(--blue);
+}
+
+/*Made .header the main header.
+Commented out header-2 and 3.
+Removed header-2 and 3.*/
+
+/*Added similar code from above with flex-wrap, text-align, justify content, 
+and 100px from the margin to center the paragraph.
+Added margins for the bottom and right.
+Set margin-bottom to 50px.
+Set margin-left to 200px.
+Added margin-top.*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    color: var(--chrome);
+}
+
+/*Added a vertical borderline on the right side of the headers.
+Commented out .vertical-line.
+Removed vertical-lines.*/
+
+/*Created a second card to center the other two image links.
+Set margin-bottom to 50px;
+Set margin-left to 200px.
+Set display to flex and flex-direction to column.
+Added flex: 0 1 50px; to fix wrapping.
+Moved .cards above .card to align continuity with HTML.
+Reduced margin-left to 120px.
+Set justify-content to center.*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 0 0px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+/*Added flex-wrap, justify-content, and margin-left to mimic .content
+and margin-bottom to add space between the images.
+Set margin-left to 155px.
+Added display, flex, and justify values in the card elements for mobile.
+Removed the flex, display, and margin values.
+Set margin to 5px.*/
+.card {
+    position: relative;
+    text-align: center;
+    color: var(--dark);
+    margin: 5px;
+}
+
+.prework {
+    position: absolute;
+    text-align: left;
+    bottom: 25px;
+    left: 0px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 10px;
+}
+
+.card-2 {
+    position: relative;
+    text-align: center;
+    color: var(--dark);
+    margin: 10px;
+}
+
+/*Set bottom and left values to mimic .prework.*/
+.horiseon {
+    position: absolute;
+    text-align: left;
+    bottom: 25px;
+    left: 0px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 5px;
+}
+
+.card-3 {
+    position: relative;
+    text-align: center;
+    color: var(--dark);
+    margin: 10px;
+}
+
+/*Set bottom and left values to mimic .prework.*/
+.proj-calc {
+    position: absolute;
+    text-align: left;
+    bottom: 25px;
+    left: 0px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 5px;
+}
+
+
+/*Resized the first application to 800px.
+Added border values.
+Set margin-bottom set to -14px.
+Set max-width to 815px to align with other images.
+Removed the margin values below.
+Set max-width to 800px.
+Set max-width to 820px.*/
+img.first-app {
+    max-width: 820px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: var(--chrome);
+}
+
+/*Added hover pseudo classes for the image links.*/
+
+/*Added hover elements to the cards below to match the image links.
+Removed them as to more resemble the mockup.*/
+img.first-app:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+/*Resized the other applications to 400px.
+Added object-fit to debug image scaling.
+Added margin right/bottom values.
+Removed the margin values below.*/
+img.second-app {
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+    border-style: solid;
+    border-width: 8px;
+}
+
+img.second-app:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+/*Set margin-left to 15px to separate the two adjacent images.
+Added margin left/bottom values.
+Removed the margin values below.*/
+img.third-app {
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+    border-style: solid;
+    border-width: 8px;
+    border-color: var(--chrome);
+}
+
+img.third-app:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    color: var(--chrome);
+}
+
+/*Added .links to center the nav links.
+Set margin left/bottom to 265 and 50px.
+Added display, flex, and justify values for mobile.
+Halved margin-left.
+Set margin-left to 0.*/
+nav.links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1 1 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+/*Added .link-1, 2; 3 and added left margins to 100px.
+Added bottom borders.
+Removed margin-left for .link-2 and 3.*/
+.link-1 {
+    color: var(--chrome);
+    border-bottom: thick solid var(--blue);
+}
+
+.link-2 {
+    border-bottom: thick solid var(--blue);
+}
+
+.link-3 {
+    border-bottom: thick solid var(--blue);
+}
+
+/*Added a footer link back to the top of the page.*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
