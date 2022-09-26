@@ -25,7 +25,7 @@ The display elements are able to adapt to mobile devices as the sections and ele
 2) Find the mobile icon which should be on the top left of the console (Google Chrome DevTool):
 ![alt text](assets/images/?raw=true)
 
-3) Look for the side bar on the left (with the 3 vertical lines) and click and drag left and right to see the page's flexboxes shrink and grow!
+3) Look for the side bar on the left (with the 2 vertical lines) and click and drag left and right to see the page's flexboxes shrink and grow!
 ![alt text](assets/images/?raw=true)
 
 Webpage: https://magerick.github.io//
