@@ -56,7 +56,7 @@ Added a flex display and justify content.
 Added a border.
 Removed display and justify content.
 Reversed previous commit and added a 450px padding to the left.
-Made padding-left 400px.*/
+Made padding-left 400px, then to 430px.*/
 nav.container {
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@ nav.container {
     border-style: solid;
     border-width: 12px;
     border-color: var(--dark);
-    padding-left: 400px;
+    padding-left: 430px;
 }
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.
