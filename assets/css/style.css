@@ -305,25 +305,25 @@ nav.links {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 265px;
+    justify-content: space-around;
+    flex: 1 1 50px;
+    margin-left: 200px;
     margin-bottom: 50px;
     font-weight: bold;
 }
 
 /*Added .link-1, 2; 3 and added left margins to 100px.
-Added bottom borders.*/
+Added bottom borders.
+Removed margin-left for .link-2 and 3.*/
 .link-1 {
     color: var(--chrome);
     border-bottom: thick solid var(--chrome);
 }
 
 .link-2 {
-    margin-left: 100px;
     border-bottom: thick solid var(--chrome);
 }
 
 .link-3 {
-    margin-left: 100px;
     border-bottom: thick solid var(--chrome);
 }
