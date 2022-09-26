@@ -184,12 +184,13 @@ Moved .cards above .card to align continuity with HTML.*/
 and margin-bottom to add space between the images.
 Set margin-left to 155px.
 Added display, flex, and justify values in the card elements for mobile.
-Removed the flex, display, and margin values.*/
+Removed the flex, display, and margin values.
+Set margin to 5px.*/
 .card {
     position: relative;
     text-align: center;
     color: var(--dark);
-    margin: 10px;
+    margin: 5px;
 }
 
 /*Added hover elements to the cards below to match the image links.
@@ -204,8 +205,6 @@ Removed them as to more resemble the mockup.*/
     border: solid thick var(--chrome);
     padding: 10px;
 }
-
-
 
 .card-2 {
     position: relative;
@@ -247,9 +246,10 @@ Added border values.
 Set margin-bottom set to -14px.
 Set max-width to 815px to align with other images.
 Removed the margin values below.
-Set max-width to 800px.*/
+Set max-width to 800px.
+Set max-width to 820px.*/
 img.first-app {
-    max-width: 800px;
+    max-width: 820px;
     border-style: solid;
     border-width: 8px;
     border-color: var(--chrome);
