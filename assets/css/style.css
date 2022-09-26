@@ -182,7 +182,8 @@ Removed header-2 and 3.*/
 and 100px from the margin to center the paragraph.
 Added margins for the bottom and right.
 Set margin-bottom to 50px.
-Set margin-left to 200px.*/
+Set margin-left to 200px.
+Added margin-top.*/
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +192,7 @@ Set margin-left to 200px.*/
     margin-left: 200px;
     margin-right: 100px;
     margin-bottom: 50px;
+    margin-top: -50px;
     color: var(--chrome);
 }
 
@@ -204,13 +206,14 @@ Set margin-left to 200px.
 Set display to flex and flex-direction to column.
 Added flex: 0 1 50px; to fix wrapping.
 Moved .cards above .card to align continuity with HTML.
-Reduced margin-left to 120px.*/
+Reduced margin-left to 120px.
+Set justify-content to center.*/
 .cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    flex: 1 1 0px;
+    justify-content: center;
+    flex: 1 0 0px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
