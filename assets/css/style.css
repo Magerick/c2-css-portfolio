@@ -67,6 +67,20 @@ nav.container {
     border-width: 12px;
     border-color: var(--dark);
     padding-left: 430px;
+    position: relative;
+    text-align: center;
+}
+
+/*Added a text box for the background above, but
+synced it to nav.container.*/
+.message {
+    position: absolute;
+    text-align: right;
+    bottom: -200px;
+    right: 105px;
+    background-color: var(--chrome);
+    border: solid thick var(--chrome);
+    padding: 10px;
 }
 
 /*Added an inline-flex display, margin, font-size/weight, and list-style.
@@ -119,17 +133,6 @@ Set height to 300px.*/
     margin-bottom: 50px;
     height: 300px;
     width: 100%;
-}
-
-/*Added a text box for the background above.*/
-.message {
-    position: absolute;
-    text-align: right;
-    bottom: 425px;
-    right: 120px;
-    background-color: var(--chrome);
-    border: solid thick var(--chrome);
-    padding: 10px;
 }
 
 /*Added flex and space-between properties for <main>.
