@@ -26,7 +26,7 @@ The display elements are able to adapt to mobile devices as the sections and ele
 ![alt text](assets/images/screen-6.png?raw=true)
 
 3) Look for the side bar on the left (with the 2 vertical lines) and click and drag left and right to see the page's flexboxes shrink and grow!
-![alt text](assets/images/screen-7,gif?raw=true)
+![alt text](assets/images/screen-7.gif?raw=true)
 
 Webpage: https://magerick.github.io/c2-css-portfolio/
 
