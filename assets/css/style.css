@@ -125,9 +125,10 @@ Added image link, background image/size/position.
 Added background.jpg which is downloaded from https://wallpaperset.com/w/full/d/f/f/54933.jpg
 Changed .avatar to .background.
 Set margin-bottom to 50px.
-Set height to 300px.*/
+Set height to 300px.
+Changed image to background-2.jpg.*/
 .background {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background-2.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 50px;
